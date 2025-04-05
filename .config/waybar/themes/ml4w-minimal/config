@@ -12,7 +12,6 @@
     // General Settings
     "layer": "top",
     "margin-bottom": 0,
-    "layer": "top",
     "margin-left": 0,
     "margin-right": 0,    
     "spacing": 0,
@@ -76,13 +75,15 @@
         "pulseaudio",
 //"backlight",
         "bluetooth",
-        "battery", 
 "network",
+        "battery", 
+        "power-profiles-daemon",
         "group/hardware",
         "group/tools",
         "custom/exit",
         "clock",
 "tray",
+        "custom/notification",
         "custom/ml4w-welcome"
     ]
 }
