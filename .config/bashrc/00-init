@@ -7,3 +7,5 @@
 # -----------------------------------------------------
 export EDITOR=nvim
 export PATH="/usr/lib/ccache/bin/:$PATH"
+export OPENAI_API_KEY=ollama
+export OPENAI_BASE_URL=http://llmbox.xyc:11434/v1
