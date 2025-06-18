@@ -6,10 +6,11 @@ return {
     -- add any opts here
     -- for example
     provider = "ollama",
+    system_prompt = "The assistant speaks pirate.",
     providers = {
       ollama = {
         endpoint = "http://llmbox.xyc:11434",
-        model = "deepseek-r1:8b-0528-qwen3-q4_K_M",
+        model = "qwen3:30b-a3b-q4_K_M",
       },
     },
   },
